@@ -1,0 +1,574 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title> Waggy | Pet Shop </title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+	<div class="main-container">
+		<div class="header">
+			<header>
+				<div class="logo">
+					<a href="index.html"><img title="index.html" src="images/logo.png" width="200" height="60"
+							alt="logo"></a>
+				</div>
+				<div class="srch-con">
+					<div class="search-container">
+						<div class="search">
+							<div><input id="search" title="start typing product name"
+								placeholder="Search For More Than 10,000 Products" type="text"></div>
+							<div id="serch-btn"><button><img src="images/search.png" title="search" alt="search" /></button></div>
+						</div>
+					</div>
+					<div class="contact">
+						<div id="" class="">
+							<div id="phone">
+								<span>Phone <br><a href="tel:+91-9876543210">+91-9876543210</a></span>
+							</div>
+							<div id="email">
+								<span>Email <br> <a href="mailto:username@naaptol.com">username@naaptol.com</a></span>
+							</div>
+						</div>
+					</div>
+					<div id="clear-both"></div>
+
+				</div>
+				<div id="clear-both"></div>
+			</header>
+
+
+			<hr>
+
+
+			<nav>
+				<div class="category">
+					<select title="pet categories" name="category">
+						<option value="Shop By Category" selected>Shop By Category</option>
+						<option value="Dog">Dog</option>
+						<option value="Cat">Cat</option>
+						<option value="Bird">Bird</option>
+					</select>
+				</div>
+				<div class="nav-bar">
+					<div class="nav-bar-content">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Pages</a></li>
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#" onclick="formPopups.openRegister()" title="register"
+									id="register-btn">Register</a></li>
+							<li><a href="#">GET&nbsp;PRO</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="profiles">
+					<div id="label"><label>
+							<pre id="user"></pre>
+						</label></div>
+					<div id="profile-icon">
+						<div><a onclick="formPopups.openLogin()" id="profile" title="login/signup" href="#"><img
+									src="images/user.png" alt="user" /></a></div>
+						<div><a title="favorites" href="#"><img src="images/favorite.png" alt="favorite" /></a></div>
+						<div><a title="cart" href="#"><img src="images/cart.png" alt="cart" /></a></div>
+					</div>
+
+				</div>
+				<div id="clear-both"></div>
+			</nav>
+
+		</div>
+
+
+
+
+		<div class="main">
+
+			<div class="banner">
+
+				<div class="dog-pic">
+					<div class="circle"></div>
+					<img src="images/dog.png" alt="dog" />
+				</div>
+				<div class="qoute-text">
+					<div class="txt">
+						<span class="chg-font">SAVE 10-20% OFF</span>
+						<p>Best Destination <br> For <span>Your Pets</span></p>
+						<button value="shop"><sup>SHOP NOW </sup><img src="images/forward.png" alt="forward" /></button>
+						<div class="navigation">
+							<input class="radio" type="radio" name="pagination" checked="checked">
+							<input class="radio" type="radio" name="pagination">
+							<input class="radio" type="radio" name="pagination">
+						</div>
+					</div>
+				</div>
+				<div id="clear-both">
+
+				</div>
+
+			</div>
+
+
+			<div class="categories">
+				<div>
+					<a href="#">
+						<img src="images/foodies.png" width="80" height="74" alt="foodies" /><br>
+						<span>foodies</span>
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img src="images/birdshop.png" width="80" height="74" alt="bird shop" /><br>
+						<span>bird shop</span>
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img src="images/dogshop.png" width="80" height="74" alt="dog shop" /><br>
+						<span>dog shop</span>
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img src="images/fishshop.png" width="80" height="74" alt="fish shop" /><br>
+						<span>fish shop</span>
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img src="images/catshop.png" width="80" height="74" alt="cat shop" /><br>
+						<span>cat shop</span>
+					</a>
+				</div>
+				<div id="clear-both"></div>
+			</div>
+
+
+
+
+			<div id="pet-clothing" class="products">
+
+				<div class="header">
+					<div class="title">
+						<span>Pet Clothing</span>
+					</div>
+					<div class="shopBtn">
+						<button value="shop"><sup>SHOP NOW</sup> <img src="images/forward.png" alt="forward" /></button>
+					</div>
+					<div id="clear-both"></div>
+				</div>
+				<div class="Product">
+					<div class="one">
+						<a href="#">
+							<div class="pro-img">
+								<div class="feature"><span>New</span></div>
+							</div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>Grey Hoodie</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$18.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+					</div>
+
+					<div class="two">
+						<a href="#">
+							<div class="pro-img"></div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>Blue Jeans Hoodie</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$20.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+					</div>
+
+					<div class="three">
+						<a href="#">
+							<div class="pro-img">
+								<div class="feature"><span>-10%</span></div>
+							</div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>T-Shirt</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$15.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+
+					</div>
+
+
+					<div class="four">
+						<a href="#">
+							<div class="pro-img"></div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>Black Shirt</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$11.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+					</div>
+					<div id="clear-both"></div>
+				</div>
+			</div>
+
+
+
+			<div id="pet-foods" class="products">
+				<div class="header">
+					<div class="title">
+						<span>Pet Foodies</span>
+					</div>
+					<div class="navbar">
+						<ul>
+							<li><a href="">ALL</a></li>
+							<li><a href="#">CAT</a></li>
+							<li><a href="#">DOG</a></li>
+							<li><a href="#">BIRD</a></li>
+						</ul>
+					</div>
+					<div class="shopBtn">
+						<button value="shop"><sup>SHOP NOW </sup><img src="images/forward.png" alt="forward" /></button>
+					</div>
+					<div id="clear-both"></div>
+				</div>
+				<div class="Product">
+					<div class="one">
+						<a href="#">
+							<div class="pro-img"></div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>Fresh Kisses</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$8.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+					</div>
+					<div class="two">
+						<a href="#">
+							<div class="pro-img">
+								<div class="feature"><span>New</span></div>
+							</div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>Dog Food</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$7.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+					</div>
+					<div class="three">
+						<a href="#">
+							<div class="pro-img"></div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>Pulsitos</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$10.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+					</div>
+					<div class="four">
+						<a href="#">
+							<div class="pro-img">
+								<div class="feature"><span>Sold</span></div>
+							</div>
+						</a>
+						<div class="pro-info">
+							<a href="#"><label>Dog Protien</label></a><br>
+							<img src="images/rating.png" alt="rating" /><br>
+							<span class="price">$8.00</span>
+						</div>
+						<div class="buttons">
+							<button value="add-cart" title="add to cart">ADD TO CART</button>
+							<button id="fav" value="favorite" title="add to favorites"><img src="images/favorite.png"
+									alt="favorite" width="16" height="16" /></button>
+						</div>
+					</div>
+					<div id="clear-both"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="footer">
+			<div>
+				<div class="head">
+					<img src="images/logo.png" alt="logo">
+				</div>
+				<div>
+					<p>Subscribe to our newsletter to get updates about our grand offers.</p>
+					<div>
+						<div class="social-apps">
+							<a href="https://www.facebook.com" target="_blank"><img src="images/fb.png" alt="fb" /></a>
+						</div>
+						<div class="social-apps">
+							<a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png"
+									alt="twitter" /></a>
+						</div>
+						<div class="social-apps">
+							<a href="https://www.pinterest.com" target="_blank"><img src="images/pinterest.png"
+									alt="pinterest" width="16" height="16" /></a>
+						</div>
+						<div class="social-apps">
+							<a href="https://www.instagram.com" target="_blank"><img src="images/insta.png"
+									alt="insta" /></a>
+						</div>
+						<div class="social-apps">
+							<a href="https://www.youtube.com" target="_blank"><img src="images/yt.png"
+									alt="youtube" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div>
+				<div class="head">
+					<h2>Quick Links</h2>
+				</div>
+				<div>
+					<ul type="none">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Offer</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div class="head">
+					<h2>Help Center</h2>
+				</div>
+				<div>
+					<ul type="none">
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#">Payments</a></li>
+						<li><a href="#">Returns & Refunds</a></li>
+						<li><a href="#">Checkout</a></li>
+						<li><a href="#">Delivery Information</a></li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div class="head">
+					<h2>Our Newsletter</h2>
+				</div>
+				<div class="body">
+					<p>Subscribe to our newsletter to get updates about our grand offers.</p>
+					<div>
+						<input type="text" name="telegram">
+						<a href="#"><img id="tele" src="images/telegram.png" alt="telegram" width="32"
+								height="32" /></a>
+					</div>
+				</div>
+			</div>
+			<div id="clear-both"></div>
+		</div>
+	</div>
+
+
+	<!-- 					Login Page 					-->
+
+	<div id="loginpage" class="login-page">
+		<div class="login" id="loginpage">
+			<div class="form-container">
+				<div class="close">
+					<label for="close"><button onclick="formPopups.closeLogin()">X</button></label>
+				</div>
+				<form id="loginform">
+					<table align="center" id="login" cellspacing="30">
+						<tr>
+							<th colspan="2"><label for="heading">Login</label></th>
+						</tr>
+						<tr>
+							<td><label for="username">Username</label></td>
+							<td><input type="text" name="username" placeholder="name" id="username"></td>
+						</tr>
+						<tr>
+							<td><label for="password">Password</label></td>
+							<td><input type="password" placeholder="password" name="password" id="password"></td>
+						</tr>
+						<tr>
+							<th colspan="2"><label for="login"><input type="button" value="login" id="loginBtn"></label>
+							</th>
+						</tr>
+						<tr>
+							<th colspan="2"><i>Don't have an Account ?</i> <label for="login"><input type="button"
+										value="Register Here" onclick="formPopups.openRegister()"></label></th>
+						</tr>
+					</table>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!--						Register								 -->
+
+
+	<div id="registerpage" class="register-page">
+		<div class="register" id="registerpage">
+			<div class="form-container">
+				<div class="close">
+					<label for="close"><button onclick="formPopups.closeRegister()">X</button></label>
+				</div>
+				<form id="registerform">
+					<table align="center" id="register" cellspacing="15">
+						<tr>
+							<th colspan="2"><label for="heading">Register</label></th>
+						</tr>
+						<tr>
+							<td><label for="name">Name</label></td>
+							<td><input type="text" name="name" placeholder="name" required id="name">
+								<br><label for="error" id="nameError">alphabets only</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="mobile">Mobile</label></td>
+							<td><input type="tel" placeholder="mobile" required maxlength="10" minlength="10"
+									name="mobile" id="mobile">
+								<br><label for="error" id="mobileError">numbers only</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="gender">Gender</label></td>
+							<td>
+								<label><input type="radio" id="male" name="gender" value="male">Male</label>
+								<label><input type="radio" id="female" name="gender" value="female">Female</label>
+								<label><input type="radio" id="other" name="gender" value="other">Other</label>
+								<br><label for="error" id="genderError">please select gender</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="dob">Date Of Birth</label></td>
+							<td><input type="text" placeholder="dd/mm/yyyy" required name="dob" id="dob" maxlength="10"
+									minlength="10">
+								<br><label for="error" id="dobError">enter valid date of birth</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="age">Age</label></td>
+							<td><input type="age" placeholder="age" required name="age" id="age">
+								<br><label for="error" id="ageError">enter valid age</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="address">Address</label></td>
+							<td><textarea type="text" name="address" required placeholder="address"
+									id="address"></textarea>
+								<br><label for="error" id="addressError"><i>enter (5-50) characters</i></label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="city">City</label></td>
+							<td>
+								<select name="city" onclick="validate.validateOnselect(this)" id="city">
+									<option value="--select city--" selected>--select city--
+									<option value="Ahamadabad">Ahamadabad
+									<option value="Mumbai">Mumbai
+									<option value="Pune">Pune
+									<option value="Kolhapur">Kolhapur
+									<option value="Kolkata">Kolkata
+									<option value="Chennai">Chennai
+									<option value="Delhi">Delhi
+									<option value="Hydrabad">Hydrabad
+								</select>
+								<br><label for="error" id="cityError">select city</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="skills">Skills</label></td>
+							<td>
+								<label><input type="checkbox" name="skills" id="skills" value="html">HTML</label>
+								<label><input type="checkbox" name="skills" id="skills" value="css">CSS</label>
+								<label><input type="checkbox" name="skills" id="skills"
+										value="javascript">JavaScript</label>
+								<br><label for="error" id="skillsError">please select skills</label>
+							</td>
+						</tr>
+						<tr>
+							<th colspan="2"><label for="register"><input type="submit" name="submit" value="register"
+										onclick="return validate.validateform()"></label></th>
+						</tr>
+						<tr>
+							<td colspan="2"><label for="error" id="err">&nbsp</label></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<!-- 					Logout Popup 					-->
+
+	<div id="logoutpage" class="form-page">
+		<div class="form" id="logoutpage">
+			<div class="form-container">
+				<div class="close">
+					<label for="close"><button onclick="formPopups.closeLogout()">X</button></label>
+				</div>
+				<form id="logoutform">
+					<table align="center" id="logout" cellspacing="30">
+						<tr>
+							<th colspan="2"><label for="heading">Are you sure want to Logout ?</label></th>
+						</tr>
+						<tr>
+							<th><label for="cancel"><input type="button" value="cancel" id="cancel"></label><label
+									for="logout"><input type="button" value="logout" id="logoutBtn"></label></th>
+						</tr>
+					</table>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+
+</body>
+
+</html>
